@@ -21,6 +21,6 @@
     </properties>
 
     <modules>
-        <module>web-application</module>
+        <module>molgenis-web-application</module>
     </modules>
 </project>

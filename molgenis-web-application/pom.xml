@@ -55,21 +55,10 @@
 
     <build>
         <plugins>
-            <!-- Package as an executable jar/war -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-
-        <resources>
-            <resource>
-                <directory>resources</directory>
-                <targetPath>${project.build.outputDirectory}</targetPath>
-                <includes>
-                    <include>application.properties</include>
-                </includes>
-            </resource>
-        </resources>
     </build>
 </project>

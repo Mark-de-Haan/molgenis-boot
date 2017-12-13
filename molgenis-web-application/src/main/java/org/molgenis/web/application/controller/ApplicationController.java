@@ -1,11 +1,11 @@
-package org.molgenis.web.application;
+package org.molgenis.web.application.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import static org.molgenis.web.application.ApplicationController.APPLICATION_CONTROLLER_URI;
+import static org.molgenis.web.application.controller.ApplicationController.APPLICATION_CONTROLLER_URI;
 
 @Controller
 @RequestMapping(APPLICATION_CONTROLLER_URI)
